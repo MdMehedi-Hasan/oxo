@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Edu Hub</title>
+    <title>Lasic Learner</title>
     <link rel="stylesheet" href="./css/bootstrap.css" />
     <link rel="stylesheet" href="./css/all.css" />
   </head>
@@ -12,7 +12,9 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
       <div class="container">
-        <a href="" class="navbar-brand">LoGo</a>
+        <a href="/" class="navbar-brand me-auto"
+          ><img src="./assets/logo3.png" alt="" style="height: 80px"
+        /></a>
         <button
           type="button"
           class="navbar-toggler"
@@ -23,26 +25,34 @@
         </button>
         <div class="collapse navbar-collapse" id="menu">
           <ul class="navbar-nav mx-auto">
-            <li><a href="" class="nav-link">Home</a></li>
-            <li><a href="" class="nav-link">About</a></li>
-            <li class="dropdown">
+            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item">
+              <a href="/about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item dropdown">
               <a
-                href=""
+                href="#"
                 class="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
                 >Service</a
               >
               <ul class="dropdown-menu dropdown-menu-dark">
-                <li><a href="" class="dropdown-item">Service One</a></li>
-                <li><a href="" class="dropdown-item">Service Two</a></li>
-                <li><a href="" class="dropdown-item">Service Three</a></li>
+                <li><a href="#" class="dropdown-item">Service One</a></li>
+                <li><a href="#" class="dropdown-item">Service Two</a></li>
+                <li><a href="#" class="dropdown-item">Service Three</a></li>
               </ul>
             </li>
-            <li><a href="/contact.html" class="nav-link">Contact</a></li>
+            <li class="nav-item">
+              <a href="/contact.html" class="nav-link">Contact</a>
+            </li>
           </ul>
           <ul class="navbar-nav">
-            <li><a href="" class="nav-link">Login</a></li>
-            <li><a href="" class="nav-link">Sign Up</a></li>
+            <li class="nav-item">
+              <a href="/login.html" class="nav-link">Login</a>
+            </li>
+            <li class="nav-item">
+              <a href="/signup.html" class="nav-link">Sign Up</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -284,58 +294,55 @@
       </div>
     </section>
     <!--  -->
-    <!--  -->
-    <footer class="pt-5">
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <div class="card card-body border-0">
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Adipisci perferendis distinctio possimus cupiditate! Doloremque,
-                voluptatibus?
-              </p>
-              <ul class="d-flex gap-3 list-inline">
-                <li>
-                  <a href=""><i class="fa-brands fa-facebook"></i></a>
-                </li>
-                <li>
-                  <a href=""><i class="fa-brands fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                </li>
-                <li>
-                  <a href=""><i class="fa-solid fa-envelope"></i></a>
-                </li>
-              </ul>
-            </div>
+          <div class="col-md-6">
+            <h5>Lasic Learner</h5>
+            <p>Providing quality services since 20XX.</p>
           </div>
-          <div class="col-md-4">
-            <div class="card card-body border-0">
-              <h3>Quick Links</h3>
-              <ul class="list-inline">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Faq</a></li>
-                <li><a href="">Contact</a></li>
-              </ul>
-            </div>
+          <div class="col-md-3">
+            <h5>Quick Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="/" class="text-white text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="text-white text-decoration-none"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="contact.html" class="text-white text-decoration-none"
+                  >Contact</a
+                >
+              </li>
+            </ul>
           </div>
-          <div class="col-md-4">
-            <div class="card card-body border-0">
-              <h3>Quick Links</h3>
-              <ul class="list-inline">
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Faq</a></li>
-                <li><a href="">Contact</a></li>
-              </ul>
+          <div class="col-md-3">
+            <h5>Connect With Us</h5>
+            <div class="social-links">
+              <a href="#" class="text-white me-2"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" class="text-white me-2"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" class="text-white me-2"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+              <a href="#" class="text-white me-2"
+                ><i class="fab fa-instagram"></i
+              ></a>
             </div>
           </div>
         </div>
-        <div class="row text-center border-top-2">
-          <p>All Rights Reserved by Pencil Box</p>
+        <hr class="my-4" />
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="mb-0">&copy; 2025 . All rights reserved.</p>
+          </div>
         </div>
       </div>
     </footer>
